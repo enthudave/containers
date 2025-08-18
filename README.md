@@ -1,3 +1,5 @@
+# Usefull commands
+
 build container: `docker build -t <container-name> -f <dockerfile> .`  
 -t is the name of the container, -f is the dockerfile to use.  
 run container: `docker run -v $HOME/code:$HOME/code -it -p 8080:8080 <container-name>`  
